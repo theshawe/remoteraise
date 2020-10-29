@@ -2210,6 +2210,8 @@ h2 { font-family: 'Inter', sans-serif; font-style: normal; font-weight: normal; 
 p { font-family: 'Inter', sans-serif; font-style: normal; font-weight: normal; font-size: 28px; line-height: 48px; color: #EDEEF9; max-width: 60%; }
 
 /* pages */
+#about { padding-top: 0%; padding-bottom: 200px; }
+
 #about h2 { margin-top: 200px; padding-bottom: 5px; color: white; font-size: 22px; }
 
 #contact h2 { margin-top: 200px; padding-bottom: 5px; color: white; font-size: 22px; }
