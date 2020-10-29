@@ -2218,6 +2218,8 @@ p { font-family: 'Inter', sans-serif; font-style: normal; font-weight: normal; f
 
 #contact p { max-width: 100%; }
 
+#contact a { color: #fff; }
+
 /* pitchers */
 #pitchers { margin-top: 100px; margin-bottom: 200px; }
 
