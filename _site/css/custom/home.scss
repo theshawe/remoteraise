@@ -263,8 +263,13 @@ nav.scroll img.remote-raise-logo {
 
   #intro {
     margin-top: 170px;
-    margin-bottom: 30px;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
     text-align: left;
+}
+
+img#remote-raise-pitchers {
+  padding: 0 !important;
 }
 
 #intro h1  {
@@ -283,8 +288,11 @@ nav.scroll img.remote-raise-logo {
 }
 
 #pitchers {
-    margin-top: 100px;
-    margin-bottom: 0px;
+    margin: 0px;
+}
+
+#pitchers .row.py-5 {
+    padding: 0 !important;
 }
 
 #pitchers h2 {
