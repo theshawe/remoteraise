@@ -2,7 +2,8 @@
 <html lang="en">
   {% include head.html %}
   <body class="d-flex flex-column">
-      <div id="page-content">
+    {% include nav.html %}
+      <div id="page-content" class="posts">
     {{ content }}
   </div>
 
