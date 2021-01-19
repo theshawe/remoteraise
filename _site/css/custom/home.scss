@@ -74,14 +74,16 @@ img#remote-raise-pitchers {
 }
 
 h1 {
+   text-transform: uppercase;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-size: 102px;
-    line-height: 107px;
+    font-size: 100px;
+    line-height: 111px;
     text-align: center;
     color: #ffffff;
     font-weight: 900;
     margin-bottom: 0px;
+    letter-spacing: -3px;
 }
 
 h2 {
@@ -119,7 +121,8 @@ p {
     margin-top: 200px;
     padding-bottom: 5px;
     color: white;
-    font-size: 32px;
+    font-size: 42px;
+    letter-spacing: 1px;
 }
 
 
@@ -289,8 +292,57 @@ nav.scroll img.remote-raise-logo {
 
 @media (max-width: 767.98px) { 
 
+    .container {
+    width: 100%;
+    max-width: 330px;
+}
+
+a.navbar-brand.ml-2 {
+    width: 100px;
+    right: 0px;
+    top: 0px;
+    left: auto;
+}
+    img.remote-raise-logo {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+span.navbar-toggler-icon {
+    height: 111px;
+    width: 70px;
+}
+
+img.remote-raise-logo {
+    height: 85px;
+}
+
+button.navbar-toggler {
+    position: fixed;
+    top: 10px;
+    right: 22px;
+    border: none;
+}
+
+button.navbar-toggler.collapsed {
+    display: none !important;
+}
+
+span.navbar-toggler-icon {
+    display: none;
+}
+
+div#navbarText {
+    height: 100vh;
+    background: #183dba;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
   #intro {
-    margin-top: 170px;
+    margin-top: 150px;
     margin-bottom: 0px;
     padding-bottom: 0px;
     text-align: center;
@@ -312,7 +364,8 @@ img#remote-raise-pitchers {
     width: 100%;
     line-height: 31px;
     font-size: 22px;
-    max-width: 95%;
+    max-width: 100%;
+    padding: 0;
 }
 
 #pitchers {
@@ -342,7 +395,35 @@ img#remote-raise-pitchers {
     display: block;
 }
 
+footer#sticky-footer {
+    display: none;
+}
 
+#news ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-flow: column;
+}
+
+#contact h2 {
+    margin-top: 0px;
+    padding-bottom: 5px;
+    color: white;
+    font-size: 22px;
+    margin: 0;
+    letter-spacing: 0px;
+}
+
+#contact p {
+    max-width: 100%;
+    font-size: 22px;
+    line-height: 26px;
+}
+
+iframe.airtable-embed {
+    height: 100vh;
+}
 
  }
 
@@ -473,4 +554,16 @@ a.regBtn:hover {
     margin: 0 auto;
     padding: 19px;
     text-align: left;
+}
+
+.nav-item a:hover {
+    background: #1acdb5b5;
+}
+
+.btn:focus, .btn.focus {
+     box-shadow: none !important;
+}
+
+.btn:not(:disabled):not(.disabled):active, .btn.active:not(:disabled):not(.disabled) {
+    box-shadow: none !important;
 }
