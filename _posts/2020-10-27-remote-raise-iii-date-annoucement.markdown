@@ -1,17 +1,20 @@
 ---
 layout: post
-title:  "Remote Raise III date annouced!"
+title:  "Remote Raise III date annouced."
 date:   2020-12-15 11:11:11 +0000
 categories: remote-raise-III
 ---
+
+<h2>Remote Raise III date annouced</h2>
+
 Save the Date : Thursday 21st January 2021 at 12noon
 For a lunchtime of online startup pitching and investment connections. We will showcase the best startup founders, solving real problems with great teams.
 
-We have already had some success with Remote Raise I and Remote Raise II. Our events have attracted founders from UK and Ireland and even welcomed angels investors, family offices and funds from UK, Ireland, Europe and USA. 
+We have already had some success with <a href="/remote-raise-1/">Remote Raise I</a> and <a href="/remote-raise-1/">Remote Raise II</a>. Our events have attracted founders from UK and Ireland and even welcomed angels investors, family offices and funds from UK, Ireland, Europe and USA. 
 
 There are some deals in the making as a result of our events so we've decided it's time to announce a third virtual Raise.
 
-Raise Ventures are pleased to announce Remote Raise III and we would love for you to  [join us][join-us].
+Raise Ventures are pleased to announce <a href="/remote-raise-iii/">Remote Raise III</a> and we would love for you to  [join us][join-us].
 
 Join us on Thursday 21st January 2021.
 
