@@ -2229,7 +2229,7 @@ p { font-family: 'Inter', sans-serif; font-style: normal; font-weight: normal; f
 
 #pitchers h1 { font-size: 111px; font-weight: 900; margin: 0; }
 
-#pitchers h2 { font-size: 52px; font-weight: 900; margin: 25px 0px; color: #fff; }
+#pitchers h2 { font-size: 52px; font-weight: 900; margin: 25px 0px; color: #fff; line-height: 1em; }
 
 #pitchers p { max-width: 100%; line-height: 29px; font-size: 22px; margin: 0; }
 
