@@ -2188,7 +2188,7 @@ a { color: #fff; }
 
 .bgimg { background-image: url(/images/raise-bg.png); background-repeat: no-repeat; background-position: -50% 0%; background-size: 50%; }
 
-.bg-dark { background-color: #173cbdb3 !important; }
+.bg-dark { background-color: #1c3fb3 !important; }
 
 .btn { font-size: 22px; color: #fff; }
 
@@ -2205,24 +2205,26 @@ img#remote-raise-pitchers { position: relative; padding-top: 70px !important; }
 
 #intro h2 { text-align: center; }
 
+#intro p { padding: 21px; line-height: 58px; display: block; }
+
 #intro .card-body a { font-size: 22px; }
 
 h1 { text-transform: uppercase; font-family: 'Inter', sans-serif; font-style: normal; font-size: 100px; line-height: 111px; text-align: center; color: #ffffff; font-weight: 900; margin-bottom: 0px; letter-spacing: -3px; }
 
 h2 { font-family: 'Inter', sans-serif; font-style: normal; font-size: 40px; color: #ffffff; line-height: 40px; margin-bottom: 0px; letter-spacing: 1px; font-weight: 900; margin-left: 0px; text-align: left; }
 
-p { font-family: 'Inter', sans-serif; font-style: normal; font-weight: normal; font-size: 34px; color: #EDEEF9; line-height: 50px; padding: 10px 90px 20px 0px; width: 100%; letter-spacing: -2px; }
+p { font-family: 'Inter', sans-serif; font-style: normal; font-weight: normal; font-size: 34px; color: #EDEEF9; line-height: 42px; padding: 0px; width: 100%; margin: 0; padding: 20px; }
 
 /* pages */
 #about { padding-top: 0%; padding-bottom: 200px; }
 
-#about h1 { margin-top: 200px; padding-bottom: 5px; color: white; font-size: 42px; letter-spacing: 1px; }
+#about h1 { margin-top: 200px; padding-bottom: 5px; color: white; font-size: 42px; letter-spacing: 1px; padding: 20px; }
 
-#about h2 { margin-top: 100px; padding-bottom: 5px; color: white; font-size: 32px; letter-spacing: 0px; }
+#about h2 { margin-top: 100px; padding-bottom: 5px; color: white; font-size: 32px; letter-spacing: 0px; padding: 20px; }
 
-#contact { padding-bottom: 200px; }
+#contact { padding-bottom: 55px; }
 
-#contact h2 { margin-top: 0px; padding-bottom: 5px; color: white; font-size: 32px; margin: 0; letter-spacing: 0px; }
+#contact h2 { margin-top: 0px; padding-bottom: 5px; color: white; font-size: 32px; margin: 0; letter-spacing: 0px; padding: 20px; }
 
 #contact p { max-width: 100%; }
 
@@ -2233,11 +2235,11 @@ p { font-family: 'Inter', sans-serif; font-style: normal; font-weight: normal; f
 
 #pitchers h1 { font-size: 111px; font-weight: 900; margin: 0; }
 
-#pitchers h2 { font-size: 52px; font-weight: 900; margin: 25px 0px; color: #fff; line-height: 1em; }
+#pitchers h2 { font-size: 52px; font-weight: 900; margin: 25px 0px; color: #fff; line-height: 1em; padding: 20px; }
 
 #pitchers p { max-width: 100%; line-height: 29px; font-size: 22px; margin: 0; }
 
-#pitchers a { margin: 25px 0px; display: block; color: #fff; font-size: 22px; }
+#pitchers a { margin: 25px 0px; display: block; color: #fff; font-size: 22px; margin: 20px; }
 
 /* Intro */
 h5.card-title { font-size: 32px; letter-spacing: -2px; font-weight: 900; height: 50px; }
@@ -2259,11 +2261,13 @@ p.card-text { padding: 0px 0px 0px 0px; text-align: center; color: #131111; line
 #sticky-footer p { width: 100%; height: 111px; line-height: 29px; max-width: 100%; display: flex; justify-content: center; align-content: center; flex-direction: column; margin: 0; font-size: 23px; text-align: center; padding: 2em; }
 
 /** Scrolling CSS */
-nav.scroll { background-color: #002d72 !important; position: fixed; transition: all 1.3s ease; }
+nav.scroll { background-color: #1c3fb3 !important; position: fixed; transition: all 1.3s ease; }
 
 nav.scroll img.remote-raise-logo { height: 60px; }
 
-@media (max-width: 767.98px) { .container { width: 100%; max-width: 330px; } a.navbar-brand.ml-2 { width: 100px; right: 0px; top: 0px; left: auto; } img.remote-raise-logo { margin: 0 auto; text-align: center; } span.navbar-toggler-icon { height: 111px; width: 70px; } img.remote-raise-logo { height: 85px; } button.navbar-toggler { position: fixed; top: 10px; right: 22px; border: none; } button.navbar-toggler.collapsed { display: none !important; } span.navbar-toggler-icon { display: none; } div#navbarText { height: 100vh; background: #183dba; padding: 0; margin: 0; width: 100%; } #intro { margin-top: 150px; margin-bottom: 0px; padding-bottom: 0px; text-align: center; } img#remote-raise-pitchers { padding: 0 !important; } #intro h1 { display: none; } #intro h2 { display: none; } #intro p { width: 100%; line-height: 31px; font-size: 22px; max-width: 100%; padding: 0; } #pitchers { margin: 0px; } #pitchers .row.py-5 { padding: 0 !important; } #pitchers h2 { font-size: 22px; } #pitchers img { width: 100px; height: 100px; margin-top: 50px; } #sticky-footer { height: 350px; position: relative; bottom: 0; display: block; } footer#sticky-footer { display: none; } #news ul { margin: 0; padding: 0; display: flex; flex-flow: column; } #contact h2 { margin-top: 0px; padding-bottom: 5px; color: white; font-size: 22px; margin: 0; letter-spacing: 0px; } #contact p { max-width: 100%; font-size: 22px; line-height: 26px; } iframe.airtable-embed { height: 100vh; } }
+@media (max-width: 767.98px) { .container { width: 100%; max-width: 330px; } a.navbar-brand.ml-2 { width: 100px; right: 0px; top: 0px; left: auto; } img.remote-raise-logo { margin: 0 auto; text-align: center; } span.navbar-toggler-icon { height: 111px; width: 70px; } img.remote-raise-logo { height: 85px; } button.navbar-toggler { position: fixed; top: 10px; right: 22px; border: none; } button.navbar-toggler.collapsed { display: none !important; } span.navbar-toggler-icon { display: none; } div#navbarText { height: 100vh; background: #183dba; padding: 0; margin: 0; width: 100%; } #intro { margin-top: 150px; margin-bottom: 0px; padding-bottom: 0px; text-align: center; } img#remote-raise-pitchers { padding: 0 !important; } #intro h1 { display: none; } #intro h2 { display: none; } #intro p { width: 100%; line-height: 31px; font-size: 22px; max-width: 100%; padding: 0; } #pitchers { margin: 0px; } #pitchers .row.py-5 { padding: 0 !important; } #pitchers h2 { font-size: 22px; } #pitchers img { width: 100px; height: 100px; margin-top: 50px; } #sticky-footer { height: 350px; position: relative; bottom: 0; display: block; } footer#sticky-footer { display: none; } #news ul { margin: 0; padding: 0; display: flex; flex-flow: column; } #contact h2 { margin-top: 0px; padding-bottom: 5px; color: white; font-size: 22px; margin: 0; letter-spacing: 0px; } #contact p { max-width: 100%; font-size: 1.25em; line-height: 1em; letter-spacing: 0px; white-space: nowrap; } iframe.airtable-embed { height: 100vh; } }
+
+li { color: #fff; text-align: left; font-size: 1.5em; }
 
 #intro h3 { background: #1cceb642; padding: 5px 5px; color: #ffffffeb; width: 70%; border-radius: 0px 5px 5px 0px; font-weight: 900; }
 
@@ -2281,9 +2285,9 @@ a.regBtn:hover { color: #78ffed; text-decoration: none; }
 
 #news h4 { padding: 15px 2px; color: #fff; text-transform: uppercase; letter-spacing: 1px; margin-top: 68px; margin-bottom: 10px; font-weight: 600; text-align: center; font-size: 25px; width: auto; border-radius: 10px; }
 
-#news ul { margin: 0; padding: 0; display: flex; }
+#news ul { margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
 
-#news ul li { margin: 0px 15px; padding: 0; list-style: none; flex: 4; }
+#news ul li { margin: 0px 15px; padding: 0; list-style: none; flex: 20%; }
 
 #news ul li a { padding: 25px 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; background: #1acdb582; margin-bottom: 40px; font-weight: 600; text-align: center; font-size: 16px; height: 100px; border-radius: 10px; width: 100%; line-height: 20px; display: flex; justify-content: center; align-content: center; flex-direction: column; }
 
@@ -2301,7 +2305,7 @@ a.regBtn:hover { color: #78ffed; text-decoration: none; }
 
 .btn:not(:disabled):not(.disabled):active, .btn.active:not(:disabled):not(.disabled) { box-shadow: none !important; }
 
-div#news { height: auto; padding-bottom: 200px; }
+div#news { height: auto; padding-bottom: 0px; }
 
 a.btn.btn-primary.btn-lg, .btn-group-lg > .btn-primary.btn { background: #3564bf; border: 3px solid #0d20b4; margin: 0px 25px 0px 0px; }
 

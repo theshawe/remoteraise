@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Watch our video from Remote Raise 1"
+title:  "Watch Remote Raise 1"
 date:   2020-06-08 11:11:11 +0000
 categories: Watch
 ---

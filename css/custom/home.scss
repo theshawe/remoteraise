@@ -26,7 +26,7 @@ a {
 }
 
 .bg-dark {
-    background-color: #173cbdb3 !important;
+    background-color: #1c3fb3 !important;
 }
 
 
@@ -76,6 +76,12 @@ img#remote-raise-pitchers {
     text-align: center;
 }
 
+#intro p {
+    padding: 21px;
+    line-height: 58px;
+    display: block;
+}
+
 #intro .card-body a {
     font-size: 22px;
 }
@@ -107,15 +113,16 @@ h2 {
 }
 
 p {
-   font-family: 'Inter', sans-serif;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: normal;
     font-size: 34px;
     color: #EDEEF9;
-    line-height: 50px;
-    padding: 10px 90px 20px 0px;
+    line-height: 42px;
+    padding: 0px;
     width: 100%;
-    letter-spacing: -2px;
+    margin: 0;
+    padding: 20px;
 }
 
 /* pages */
@@ -131,6 +138,7 @@ p {
     color: white;
     font-size: 42px;
     letter-spacing: 1px;
+    padding: 20px;
 }
 
 
@@ -141,10 +149,11 @@ p {
     color: white;
     font-size: 32px;
     letter-spacing: 0px;
+    padding: 20px;
 }
 
 #contact {
-    padding-bottom: 200px;
+    padding-bottom: 55px;
 }
 
 #contact h2 {
@@ -154,6 +163,7 @@ p {
     font-size: 32px;
     margin: 0;
     letter-spacing: 0px;
+    padding: 20px;
 }
 
 #contact p {
@@ -183,6 +193,7 @@ p {
     margin: 25px 0px;
     color: #fff;
     line-height: 1em;
+    padding: 20px;
 }
 
 #pitchers p {
@@ -198,6 +209,7 @@ p {
     display: block;
     color: #fff;
     font-size: 22px;
+    margin: 20px;
   
 }
 
@@ -288,7 +300,7 @@ p.card-text {
 * Scrolling CSS
 */
 nav.scroll {
-    background-color: #002d72 !important;
+    background-color: #1c3fb3 !important;
     position: fixed;
     transition: all 1.3s ease;
 }
@@ -425,8 +437,10 @@ footer#sticky-footer {
 
 #contact p {
     max-width: 100%;
-    font-size: 22px;
-    line-height: 26px;
+    font-size: 1.25em;
+    line-height: 1em;
+    letter-spacing: 0px;
+    white-space: nowrap;
 }
 
 iframe.airtable-embed {
@@ -435,6 +449,11 @@ iframe.airtable-embed {
 
  }
 
+li {
+    color: #fff;
+    text-align: left;
+    font-size: 1.5em;
+}
 
 
 
@@ -515,13 +534,14 @@ a.regBtn:hover {
     margin: 0;
     padding: 0;
     display: flex;
+    flex-wrap: wrap;
 }
 
 #news ul li {
-    margin: 0px 15px;
+        margin: 0px 15px;
     padding: 0;
     list-style: none;
-    flex: 4;
+    flex: 20%;
 }
 
 #news ul li a {
@@ -585,7 +605,7 @@ a.regBtn:hover {
 
 div#news {
     height: auto;
-    padding-bottom: 200px;
+    padding-bottom: 0px;
 }
 
 

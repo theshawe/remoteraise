@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Remote Raise III date annouced."
-date:   2020-12-15 11:11:11 +0000
+date:   2020-10-27 11:11:11 +0000
 categories: remote-raise-III
 ---
 
