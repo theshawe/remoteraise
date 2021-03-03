@@ -2303,6 +2303,10 @@ a.regBtn:hover { color: #78ffed; text-decoration: none; }
 
 div#news { height: auto; padding-bottom: 200px; }
 
+a.btn.btn-primary.btn-lg, .btn-group-lg > .btn-primary.btn { background: #3564bf; border: 3px solid #0d20b4; margin: 0px 25px 0px 0px; }
+
+a.btn.btn-secondary.btn-lg, .btn-group-lg > .btn-secondary.btn { background: #4b23e2; border: 3px solid #2d048c; }
+
 .hovereffect { width: 100%; height: 100%; float: left; overflow: hidden; position: relative; text-align: center; cursor: default; }
 
 .hovereffect .overlay { width: 100%; height: 100%; position: absolute; overflow: hidden; left: 0; bottom: -200px; opacity: 0; filter: alpha(opacity=0); -webkit-transition: all 0.4s ease-in-out; transition: all 0.4s ease-in-out; }
