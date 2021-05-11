@@ -66,7 +66,7 @@ img#remote-raise-pitchers {
 
 #intro {
     text-align: center;
-    background-image: url(https://remoteraise.com/images/raise-new-bg.png);
+   /* background-image: url(https://remoteraise.com/images/raise-new-bg.png);*/
     border-radius: 41px;
     margin-top: 200px;
     padding-bottom: 50px;
@@ -101,11 +101,10 @@ img#remote-raise-pitchers {
 }
 
 h1 {
-   text-transform: uppercase;
-    font-family: 'Inter', sans-serif;
+     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-size: 100px;
-    line-height: 111px;
+    font-size: 45px;
+    line-height: 48px;
     text-align: center;
     color: #ffffff;
     font-weight: 900;
@@ -325,6 +324,12 @@ nav.scroll img.remote-raise-logo {
 
 
 @media (max-width: 767.98px) { 
+
+
+h1 {
+    font-size: 35px;
+    line-height: 38px;
+}
 
     .container {
     width: 100%;
@@ -549,7 +554,7 @@ a.btn.btn-dark {
 }
 
 a.regBtn:hover {
-    color: #78ffed;
+    color: #fff;
     text-decoration: none;
 }
 
@@ -661,4 +666,8 @@ a.btn.btn-primary.btn-lg {
 a.btn.btn-secondary.btn-lg {
     background: #4b23e2;
     border: 3px solid #2d048c;
+}
+
+a.lightbox-youtube {
+    color: #d7fd45;
 }

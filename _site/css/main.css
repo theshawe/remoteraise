@@ -2198,7 +2198,7 @@ a.btn.btn-light { color: #ffffff; background-color: #1AA2CD; border: #1AA2CD; te
 /* #intro::after { content: url(/images/raise-bg.png); position: absolute; top: 70px; opacity: .125; right: -40%; } */
 img#remote-raise-pitchers { position: relative; padding-top: 70px !important; }
 
-#intro { text-align: center; background-image: url(https://remoteraise.com/images/raise-new-bg.png); border-radius: 41px; margin-top: 200px; padding-bottom: 50px; padding-top: 50px; border: 18px solid #3614ba52; }
+#intro { text-align: center; /* background-image: url(https://remoteraise.com/images/raise-new-bg.png);*/ border-radius: 41px; margin-top: 200px; padding-bottom: 50px; padding-top: 50px; border: 18px solid #3614ba52; }
 
 #intro h1 { padding-top: 0px; font-size: 28px; line-height: 35px; text-transform: inherit; letter-spacing: 1px; font-weight: 600; text-align: left; }
 
@@ -2208,7 +2208,7 @@ img#remote-raise-pitchers { position: relative; padding-top: 70px !important; }
 
 #intro .card-body a { font-size: 22px; }
 
-h1 { text-transform: uppercase; font-family: 'Inter', sans-serif; font-style: normal; font-size: 100px; line-height: 111px; text-align: center; color: #ffffff; font-weight: 900; margin-bottom: 0px; letter-spacing: -3px; }
+h1 { font-family: 'Inter', sans-serif; font-style: normal; font-size: 45px; line-height: 48px; text-align: center; color: #ffffff; font-weight: 900; margin-bottom: 0px; letter-spacing: -3px; }
 
 h2 { font-family: 'Inter', sans-serif; font-style: normal; font-size: 40px; color: #ffffff; line-height: 40px; margin-bottom: 0px; letter-spacing: 1px; font-weight: 900; margin-left: 0px; text-align: left; }
 
@@ -2264,7 +2264,7 @@ nav.scroll { background-color: #1c3fb3 !important; position: fixed; transition: 
 
 nav.scroll img.remote-raise-logo { height: 60px; }
 
-@media (max-width: 767.98px) { .container { width: 100%; max-width: 330px; } #intro { height: 670px; } a.navbar-brand.ml-2 { width: 100px; right: 0px; top: 0px; left: auto; } img.remote-raise-logo { margin: 0 auto; text-align: center; } span.navbar-toggler-icon { height: 60px; width: 60px; } img.remote-raise-logo { height: 85px; } button.navbar-toggler { position: fixed; top: 10px; right: 22px; border: none; } button.navbar-toggler.collapsed { display: none !important; } #about h1 { margin-top: 150px; padding-bottom: 5px; color: white; font-size: 15px; letter-spacing: 1px; padding: 0px; line-height: 1em; } p { font-size: 20px; line-height: 22px; } div#navbarText { height: 100vh; background: #183dba; padding: 0; margin: 0; width: 100%; } #intro { margin-top: 150px; margin-bottom: 0px; padding-bottom: 0px; text-align: center; } img#remote-raise-pitchers { padding: 0 !important; } #intro p { width: 100%; line-height: 25px; font-size: 18px; max-width: 100%; padding: 0; margin-bottom: 25px; } #intro a.btn { width: 100%; padding: 20px 25px; font-size: 17px; margin: 5px 0px; } #pitchers { margin: 0px; } #pitchers .row.py-5 { padding: 0 !important; } #pitchers h2 { font-size: 22px; } #news h4 { padding: 0; margin-top: 20px; } #news ul li { list-style: none; flex: 20%; margin: 0 !important; padding: 0 !important; } #pitchers img { width: 100px; height: 100px; margin-top: 50px; } #sticky-footer { height: 350px; position: relative; bottom: 0; display: block; } footer#sticky-footer { display: none; } #news ul { margin: 0; padding: 0; display: flex; flex-flow: column; } #contact h2 { margin-top: 0px; padding-bottom: 5px; color: white; font-size: 22px; margin: 0; letter-spacing: 0px; } #contact p { max-width: 100%; font-size: 1.25em; line-height: 1em; letter-spacing: 0px; } iframe.airtable-embed { height: 100vh; } }
+@media (max-width: 767.98px) { h1 { font-size: 35px; line-height: 38px; } .container { width: 100%; max-width: 330px; } #intro { height: 670px; } a.navbar-brand.ml-2 { width: 100px; right: 0px; top: 0px; left: auto; } img.remote-raise-logo { margin: 0 auto; text-align: center; } span.navbar-toggler-icon { height: 60px; width: 60px; } img.remote-raise-logo { height: 85px; } button.navbar-toggler { position: fixed; top: 10px; right: 22px; border: none; } button.navbar-toggler.collapsed { display: none !important; } #about h1 { margin-top: 150px; padding-bottom: 5px; color: white; font-size: 15px; letter-spacing: 1px; padding: 0px; line-height: 1em; } p { font-size: 20px; line-height: 22px; } div#navbarText { height: 100vh; background: #183dba; padding: 0; margin: 0; width: 100%; } #intro { margin-top: 150px; margin-bottom: 0px; padding-bottom: 0px; text-align: center; } img#remote-raise-pitchers { padding: 0 !important; } #intro p { width: 100%; line-height: 25px; font-size: 18px; max-width: 100%; padding: 0; margin-bottom: 25px; } #intro a.btn { width: 100%; padding: 20px 25px; font-size: 17px; margin: 5px 0px; } #pitchers { margin: 0px; } #pitchers .row.py-5 { padding: 0 !important; } #pitchers h2 { font-size: 22px; } #news h4 { padding: 0; margin-top: 20px; } #news ul li { list-style: none; flex: 20%; margin: 0 !important; padding: 0 !important; } #pitchers img { width: 100px; height: 100px; margin-top: 50px; } #sticky-footer { height: 350px; position: relative; bottom: 0; display: block; } footer#sticky-footer { display: none; } #news ul { margin: 0; padding: 0; display: flex; flex-flow: column; } #contact h2 { margin-top: 0px; padding-bottom: 5px; color: white; font-size: 22px; margin: 0; letter-spacing: 0px; } #contact p { max-width: 100%; font-size: 1.25em; line-height: 1em; letter-spacing: 0px; } iframe.airtable-embed { height: 100vh; } }
 
 li { color: #fff; text-align: left; font-size: 1.5em; }
 
@@ -2278,7 +2278,7 @@ a.btn.btn-dark { color: #ffffff; background-color: #ffffff00; border: 2px solid 
 
 .regBtn { color: #fff; text-transform: uppercase; font-size: 26px; margin-left: 20px; letter-spacing: 1px; border-bottom: 5px solid; padding-bottom: 5px; text-decoration: none; padding: 0; margin: 0; }
 
-a.regBtn:hover { color: #78ffed; text-decoration: none; }
+a.regBtn:hover { color: #fff; text-decoration: none; }
 
 #intro .rr-ii { background: #1acdb5; }
 
@@ -2309,6 +2309,8 @@ div#news { height: auto; padding-bottom: 0px; }
 a.btn.btn-primary.btn-lg, .btn-group-lg > .btn-primary.btn { background: #3564bf; border: 3px solid #0d20b4; margin: 0px 25px 0px 0px; }
 
 a.btn.btn-secondary.btn-lg, .btn-group-lg > .btn-secondary.btn { background: #4b23e2; border: 3px solid #2d048c; }
+
+a.lightbox-youtube { color: #d7fd45; }
 
 .hovereffect { width: 100%; height: 100%; float: left; overflow: hidden; position: relative; text-align: center; cursor: default; }
 
