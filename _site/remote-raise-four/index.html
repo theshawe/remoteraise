@@ -18,6 +18,7 @@
   <link rel="stylesheet" href="https://use.typekit.net/hva3xzw.css" />
 
 
+
   <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
@@ -47,10 +48,10 @@
 
   <body class="d-flex flex-column">
 
-    <nav class="navbar fixed-top navbar-expand-lg navbar-dark bg-dark container">
+    <nav class="navbar fixed-top navbar-expand-lg">
 
-<div class="container">
-    <a class="navbar-brand ml-2" href="https://remoteraise.com"><img class="remote-raise-logo" src="/images/remote-raise-logo.png" height="125" alt="Remote Raise">
+
+    <a class="navbar-brand ml-2" href="https://remoteraise.com"><img class="remote-raise-logo" src="/images/remote-raise-logo.png" height="60" alt="Remote Raise">
 </a>
 
   <button
@@ -74,43 +75,48 @@ About</a>
 </li>
 
 
-<li class="nav-item">
-          <a class="btn px-4" href="http://localhost:4000/remote-raise-four" role="button">
+ <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Previous events
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li class="nav-item">
+          <a class="btn px-4" href="/remote-raise-four" role="button">
         RR IV</a>
      
       </li>
 
 <li class="nav-item">
-          <a class="btn px-4" href="http://localhost:4000/remote-raise-iii" role="button">
+          <a class="btn px-4" href="/remote-raise-iii" role="button">
         RR III</a>
      
       </li>
 
       <li class="nav-item">
-          <a class="btn px-4" href="http://localhost:4000/remote-raise-ii" role="button">
+          <a class="btn px-4" href="/remote-raise-ii" role="button">
         RR II</a>
      
       </li>
+          </ul>
+        </li>
 
 
-      </li>
+
+
+
+
 
   
     <li class="nav-item">
-  <a class="btn btn-dark ml-5" href="https://us02web.zoom.us/meeting/register/tZwkduqqqj0vGtSnyH2IoJRjAzPqJz0Q8L-e" role="button">
+  <a class="btn btn-dark ml-5 sign-up-btn" href="https://us02web.zoom.us/meeting/register/tZwkduqqqj0vGtSnyH2IoJRjAzPqJz0Q8L-e" role="button">
 Sign Up</a>
 </li>
 
-<!--<li class="nav-item">
-  <a class="btn btn-light mx-5" href="https://us02web.zoom.us/meeting/register/tZIoduGtpzwrGdQJAfY6SuHLBqPvnwpL4bO9?utm_source=Remote+Raise+III&utm_campaign=318a903eec-EMAIL_CAMPAIGN_2020_08_20_07_42_COPY_01&utm_medium=email&utm_term=0_3ac8b4e4a2-318a903eec-170141052&mc_cid=318a903eec&mc_eid=4f6f4ae725" role="button">
-Register</a>
-</li>
--->
     </ul>
 
   </div>
 
-</div>
+
 </nav>
 
 
@@ -196,11 +202,19 @@ Register</a>
 
   </body>
 
+
+
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
   <script
     src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
     integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
     crossorigin="anonymous"
   ></script>
+
   <script
     src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
     integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
@@ -216,6 +230,6 @@ Register</a>
 
    <script src="/js/script.js"></script>
 
-            
+<!-- <script src="/js/Nzoom.min.js"></script> -->
 
 </html>
