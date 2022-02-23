@@ -59,6 +59,11 @@ a.btn.btn-light {
 }
 */
 
+.bgimg {
+    background-image: url(https://remoteraise.com/images/raise-new-bg.png);
+    background-size: contain;
+}
+
 img#remote-raise-pitchers {
     position: relative;
     padding-top: 70px !important;
@@ -661,6 +666,13 @@ div#news {
     padding-bottom: 0px;
 }
 
+a.joinBtn:hover {
+    color: #fff;
+    text-decoration: none;
+    background:#1acdb5b5;
+    box-shadow: 3px 7px 2px #263990;
+}
+
 
 
 a.btn.btn-primary.btn-lg {
@@ -717,6 +729,7 @@ div#page-content {
     justify-content: left;
     height: 100vh;
     padding: 5vw;
+    max-width: 75vw;
 }
 
 a.btn.px-4 {
@@ -738,7 +751,7 @@ a#navbarDropdown {
 }
 
 .joinBtn {
-    padding: 30px;
+    padding: 10px 30px;
     background: linear-gradient(0.44turn, #3356cb, #334cb3, #394899);
     color: #fff;
     border: none !important;
@@ -749,4 +762,10 @@ a#navbarDropdown {
     font-size: 22px;
     margin: 35px 0px;
     box-shadow: 2px 2px 2px #263990;
+}
+
+
+a#navbarDropdown:hover {
+    color: #fff;
+    border-radius: 2px;
 }
